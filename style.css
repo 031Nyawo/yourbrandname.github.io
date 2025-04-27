@@ -1,76 +1,65 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nyawo Apparel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="Nyawo Apparel Logo" width="50" /></a>
+    </div>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="socials">
+      <a href="https://www.instagram.com/yourbrand" target="_blank" class="instagram-icon">
+        <img src="images/instagram-icon.png" alt="Instagram" width="30" />
+      </a>
+    </div>
+  </nav>
 
-.hero {
-  background: linear-gradient(to right, #111, #333);
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-}
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Nyawo Apparel</h1>
+    <p>Style that speaks your future.</p>
+  </header>
 
-.logo {
-  width: 100px;
-  border-radius: 50%;
-}
+  <section class="products">
+    <h2>🔥 Featured Collection</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/shirt1.jpg" alt="T-Shirt" />
+        <h3>Urban T-Shirt</h3>
+        <p>R250</p>
+      </div>
+      <div class="product">
+        <img src="images/hoodie1.jpg" alt="Hoodie" />
+        <h3>Signature Hoodie</h3>
+        <p>R450</p>
+      </div>
+    </div>
+  </section>
 
-.products {
-  padding: 40px 20px;
-  text-align: center;
-}
+  <section class="vision">
+    <h2>🚀 Vision 2030</h2>
+    <p>At Nyawo Apparel, we envision a future where African streetwear takes the global stage.</p>
+    <ul>
+      <li>🌍 Expand to 10 international cities</li>
+      <li>♻️ Launch a fully sustainable product line</li>
+      <li>🧑🏽‍🎓 Empower 1,000+ young creatives in Africa</li>
+    </ul>
+  </section>
 
-.product-grid {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.product {
-  background: white;
-  padding: 15px;
-  width: 200px;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.product:hover {
-  transform: translateY(-5px);
-}
-
-.product img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.vision {
-  background-color: #fff;
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
-  border-top: 2px solid #eee;
-}
-
-.vision ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.vision li {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-footer {
-  background-color: #111;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
+  <footer>
+    <p>&copy; 2025 Nyawo Apparel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
